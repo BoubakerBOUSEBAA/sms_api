@@ -184,49 +184,10 @@ main {
 	justify-content: center;
 	background-size: cover;
 }
-.iphonex .screen .screen__view .dribbbleLogo.white{
-	width: 0.9em;
-	height: 0.9em;
-	border: solid 0.07em #fff;
-	position: relative;
-	margin-left: 0.3em;
-	background: transparent;
-	box-sizing: border-box;
-}
-.iphonex .screen:hover .screen__view .dribbbleLogo:not(.white){
-	transform: translateY(100%) translateZ(1px);
-	transition: all ease 1s 0.1s
-}
-.iphonex .screen .screen__view .dribbbleLogo:after,
-.iphonex .screen .screen__view .dribbbleLogo:before,
-.iphonex .screen .screen__view .dribbbleLogo span{
-	content: "";
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	
-	position: absolute;
-}
-.iphonex .screen .screen__view .dribbbleLogo.white:after,
-.iphonex .screen .screen__view .dribbbleLogo.white:before,
-.iphonex .screen .screen__view .dribbbleLogo.white span{
-	border: solid 0.04em #fff;
-}
-.iphonex .screen .screen__view .dribbbleLogo:after{
-	bottom: 0;
-	transform: translateY(63%) scaleY(1.65) scaleX(1.5) rotate(-30deg);
-	transform-origin: top center;
-}
-.iphonex .screen .screen__view .dribbbleLogo:before{
-	top: 0;
-	transform: translateY(-62%) scaleY(1.65) scaleX(1.5) rotate(-30deg);
-	transform-origin: bottom center;
-}
-.iphonex .screen .screen__view .dribbbleLogo span{
-	top: 0;
-	transform: translateY(-50%) scaleY(1.85) scaleX(1.5) rotate(-63deg);
-	transform-origin: bottom right;
-}
+
+
+
+
 .iphonex .screen .screen__view .hello{
 	font-size: 2.5em;
 	color: #fff;
